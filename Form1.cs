@@ -847,5 +847,10 @@ namespace GameOfLife
         {
             toolStripButton4_Click(sender, e);
         }
+
+        private void hideToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            toggleHUDToolStripMenuItem_Click(sender, e);
+        }
     }
 }
